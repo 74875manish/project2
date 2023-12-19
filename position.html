@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="position.css"> -->
+    <style>
+        .parent {
+            border: 3px solid red;
+            width: 800px;
+            height: 400px;
+            position: relative;
+            background-color: pink;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            font-size: 26px;
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        .bottom-right {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            font-size: 22px;
+        }
+ .top-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 30px;
+ }
+
+ .centre{
+    position: absolute;
+    /* text-align: center; */
+    top: 45%;
+    left: 48%;
+    
+    font-size: 20px;
+ }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="top-left">top-left</div>
+        <div class="top-right">top-right</div>
+        <div class="bottom-left">bottom-left</div>
+        <div class="bottom-right">bottom-right</div>
+        <div class="centre">Centre</div>
+    </div>
+</body>
+
+</html>
